@@ -410,6 +410,10 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "Workbook calculation" => "통합 문서 계산",
         "Enable iterative calculation" => "반복 계산 사용",
         "Calculation settings are saved with the workbook." => "계산 설정은 통합 문서와 함께 저장됩니다.",
+        "Glide the selection outline to the cell you move to instead of jumping there" => "선택 테두리가 이동할 셀로 바로 뛰지 않고 부드럽게 움직입니다",
+        "Sheet structure is locked: sheets can't be added, moved, renamed or deleted." => "시트 구조가 잠겨 있어 시트를 추가, 이동, 이름 변경 또는 삭제할 수 없습니다.",
+        "Lock the sheet structure so sheets can't be added, moved, renamed or deleted." => "시트를 추가, 이동, 이름 변경 또는 삭제할 수 없도록 시트 구조를 잠급니다.",
+        "A CSV file, web page or PDF is a copy: the workbook keeps its own file." => "CSV 파일, 웹 페이지 또는 PDF는 복사본이며 통합 문서는 원래 파일을 유지합니다.",
         _ => return None,
     })
 }
